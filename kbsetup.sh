@@ -13,3 +13,6 @@ echo "installing Kasaya"
 chmod 777 KcsSetup.sh
 ./KcsSetup.sh
 zenity --warning --width 300 --text "Reboot Required"
+cd ../
+rm -rf t3mp
+reboot
